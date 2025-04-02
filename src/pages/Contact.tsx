@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { EnvelopeOpen, Phone, Clock, MapPin } from 'lucide-react';
+import { Mail, Phone, Clock, MapPin } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
@@ -61,7 +61,7 @@ const Contact = () => {
                   </div>
 
                   <div className="flex items-start">
-                    <EnvelopeOpen className="h-6 w-6 text-primary mr-4 mt-1 flex-shrink-0" />
+                    <Mail className="h-6 w-6 text-primary mr-4 mt-1 flex-shrink-0" />
                     <div>
                       <p className="mb-2">
                         <span className="font-medium">General Inquiries:</span><br />
